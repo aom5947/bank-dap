@@ -1,0 +1,56 @@
+:root {
+  --bg: #0b1020;
+  --bg-soft: #131a2e;
+  --card: rgba(23, 31, 51, 0.85);
+  --border: rgba(120, 140, 190, 0.22);
+  --text: #dbe3f4;
+  --text-dim: #8f9dbb;
+  --heading: #ffffff;
+  --accent: #4ade80;
+  --accent-dark: #16a34a;
+  --blue: #60a5fa;
+  --danger: #f87171;
+  --warn: #fbbf24;
+  --radius: 16px;
+
+  font: 16px/1.6 system-ui, 'Segoe UI', 'Noto Sans Thai', Roboto, sans-serif;
+  color: var(--text);
+  background: radial-gradient(1200px 600px at 15% -10%, #1b2b52 0%, transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, #14352c 0%, transparent 55%), var(--bg);
+  background-attachment: fixed;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--heading);
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--blue);
+}
