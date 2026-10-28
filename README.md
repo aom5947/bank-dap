@@ -7,16 +7,17 @@
 
 ## 🔗 ลิงก์เว็บไซต์
 
-- **เว็บไซต์ (GitHub Pages):** https://`<username>`.github.io/`<repo-name>`/
-- **Smart Contract (Sepolia):** https://sepolia.etherscan.io/address/`<contract-address>`
+- **เว็บไซต์ (GitHub Pages):** https://aom5947.github.io/bank-dap/
+- **Source Code:** https://github.com/aom5947/bank-dap
+- **Smart Contract (Sepolia):** https://sepolia.etherscan.io/address/0x73A1cF776870D7624E94ED787F390d7251a04a53
 
 ## 👤 ข้อมูลนักศึกษา
 
 | รายการ | ข้อมูล |
 | --- | --- |
-| รหัสนักศึกษา | `0000000000` |
-| ชื่อ-นามสกุล | ชื่อ-นามสกุล |
-| Contract Address | `0x0000...0000` |
+| รหัสนักศึกษา | `66055370` |
+| ชื่อ-นามสกุล | จิรายุ ภิรมย์กิจ |
+| Contract Address | [`0x73A1cF776870D7624E94ED787F390d7251a04a53`](https://sepolia.etherscan.io/address/0x73A1cF776870D7624E94ED787F390d7251a04a53) |
 | Network | Sepolia Testnet |
 
 ## ✨ ฟีเจอร์
@@ -90,15 +91,13 @@ export const CONTRACT_ADDRESS = '0x...' // address ที่ Deploy จาก Re
 1. สร้าง repository บน GitHub แล้ว push โค้ดขึ้นไปที่ branch `main`
 2. ไปที่ **Settings → Pages → Build and deployment → Source** เลือก **GitHub Actions**
 3. รอ workflow *Deploy to GitHub Pages* ทำงานเสร็จ (แท็บ Actions)
-4. เว็บไซต์จะออนไลน์ที่ `https://<username>.github.io/<repo-name>/`
+4. เว็บไซต์จะออนไลน์ที่ https://aom5947.github.io/bank-dap/
 
 ```bash
-git init
-git add .
-git commit -m "Banking DApp with Smart Contract"
-git branch -M main
-git remote add origin https://github.com/<username>/<repo-name>.git
-git push -u origin main
+git clone https://github.com/aom5947/bank-dap.git
+cd bank-dap
+npm install
+npm run dev
 ```
 
 ## 📁 โครงสร้างโปรเจกต์

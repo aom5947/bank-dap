@@ -4,13 +4,13 @@
 // ============================================================
 
 // 1) รหัสนักศึกษา
-export const STUDENT_ID = '0000000000'
+export const STUDENT_ID = '66055370'
 
 // 2) ชื่อ-นามสกุล
-export const STUDENT_NAME = 'ชื่อ-นามสกุล'
+export const STUDENT_NAME = 'จิรายุ ภิรมย์กิจ'
 
 // 3) Contract Address ที่ Deploy จาก Remix (ขึ้นต้นด้วย 0x ตามด้วย 40 ตัวอักษร)
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000'
+export const CONTRACT_ADDRESS = '0x73A1cF776870D7624E94ED787F390d7251a04a53'
 
 // ------------------------------------------------------------
 //  Network ที่ใช้ (ค่าเริ่มต้น: Sepolia testnet)
